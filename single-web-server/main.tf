@@ -26,8 +26,6 @@ terraform {
 
 provider "aws" {
   region     = "us-east-2"
-  access_key = "AKIA3YGA2U6CIYWMIY5T"
-  secret_key = "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"
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
@@ -36,7 +34,7 @@ provider "aws" {
 
 resource "aws_instance" "example" {
   # Ubuntu Server 18.04 LTS (HVM), SSD Volume Type in us-east-2
-  ami                    = "ami-0c55b159cbfafe1f0"
+  ami                    = "ami-0a1c7c7935530ecbf"
   instance_type          = "t2.micro"
   vpc_security_group_ids = [aws_security_group.instance.id]
 
