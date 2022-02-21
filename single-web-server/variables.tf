@@ -15,11 +15,11 @@ variable "server_port" {
   type        = number
   default     = 8080
 }
-variable "aws_access_key" {
-  description = "Access key"
-  type        = string
-}
-variable "aws_access_secret" {
-  description = "Access secret"
-  type        = string
-}
+#variable "aws_access_key" {
+#  description = "Access key"
+#  type        = string
+#}
+#variable "aws_access_secret" {
+#  description = "Access secret"
+#  type        = string
+#}
