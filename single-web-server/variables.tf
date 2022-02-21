@@ -15,3 +15,11 @@ variable "server_port" {
   type        = number
   default     = 8080
 }
+variable "access_key" {
+  description = "Access key"
+  type        = string
+}
+variable "access_secret" {
+  description = "Access secret"
+  type        = string
+}
